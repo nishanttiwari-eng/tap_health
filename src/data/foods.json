@@ -1,0 +1,142 @@
+[
+  {
+    "id": "oats",
+    "name": "Oats (rolled)",
+    "kcal": 380,
+    "protein": 13,
+    "defaultServing": "40g"
+  },
+  {
+    "id": "egg",
+    "name": "Egg (boiled)",
+    "kcal": 78,
+    "protein": 6,
+    "defaultServing": "1 egg"
+  },
+  {
+    "id": "paneer",
+    "name": "Paneer",
+    "kcal": 265,
+    "protein": 18,
+    "defaultServing": "100g"
+  },
+  {
+    "id": "chicken",
+    "name": "Chicken breast (cooked)",
+    "kcal": 165,
+    "protein": 31,
+    "defaultServing": "100g"
+  },
+  {
+    "id": "dal",
+    "name": "Dal (lentil curry)",
+    "kcal": 180,
+    "protein": 12,
+    "defaultServing": "1 cup"
+  },
+  {
+    "id": "roti",
+    "name": "Roti / Chapati",
+    "kcal": 110,
+    "protein": 3,
+    "defaultServing": "1 piece"
+  },
+  {
+    "id": "rice",
+    "name": "Steamed Rice",
+    "kcal": 130,
+    "protein": 2,
+    "defaultServing": "100g"
+  },
+  {
+    "id": "curd",
+    "name": "Curd / Dahi",
+    "kcal": 98,
+    "protein": 11,
+    "defaultServing": "200g"
+  },
+  {
+    "id": "chole",
+    "name": "Chole (chickpea curry)",
+    "kcal": 210,
+    "protein": 10,
+    "defaultServing": "1 cup"
+  },
+  {
+    "id": "idli",
+    "name": "Idli",
+    "kcal": 58,
+    "protein": 2,
+    "defaultServing": "1 piece"
+  },
+  {
+    "id": "dosa",
+    "name": "Dosa (plain)",
+    "kcal": 133,
+    "protein": 3,
+    "defaultServing": "1 piece"
+  },
+  {
+    "id": "poha",
+    "name": "Poha",
+    "kcal": 180,
+    "protein": 4,
+    "defaultServing": "1 bowl"
+  },
+  {
+    "id": "upma",
+    "name": "Upma",
+    "kcal": 220,
+    "protein": 6,
+    "defaultServing": "1 bowl"
+  },
+  {
+    "id": "banana",
+    "name": "Banana",
+    "kcal": 105,
+    "protein": 1,
+    "defaultServing": "1 medium"
+  },
+  {
+    "id": "apple",
+    "name": "Apple",
+    "kcal": 95,
+    "protein": 0,
+    "defaultServing": "1 medium"
+  },
+  {
+    "id": "almonds",
+    "name": "Almonds",
+    "kcal": 170,
+    "protein": 6,
+    "defaultServing": "28g"
+  },
+  {
+    "id": "milk",
+    "name": "Milk (toned)",
+    "kcal": 120,
+    "protein": 8,
+    "defaultServing": "250ml"
+  },
+  {
+    "id": "fish",
+    "name": "Fish (grilled)",
+    "kcal": 206,
+    "protein": 22,
+    "defaultServing": "120g"
+  },
+  {
+    "id": "tofu",
+    "name": "Tofu",
+    "kcal": 144,
+    "protein": 15,
+    "defaultServing": "50g"
+  },
+  {
+    "id": "sprouts",
+    "name": "Moong Sprouts",
+    "kcal": 86,
+    "protein": 9,
+    "defaultServing": "100g"
+  }
+]

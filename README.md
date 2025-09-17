@@ -1,4 +1,99 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# Quick Add Meal - React Native App
+
+A production-ready React Native application for tracking meals and nutrition with a focus on clean architecture, TypeScript best practices, and optimal performance.
+
+## 🚀 Features
+
+- **Smart Search**: Diacritic and case-insensitive food search with priority ranking
+- **Nutrition Tracking**: Real-time calorie and protein totals
+- **Data Persistence**: AsyncStorage with daily meal tracking
+- **Visual Analytics**: Sparkline chart for calorie trend visualization
+- **Clean Architecture**: Separation of concerns with custom hooks and utilities
+
+## 🛠️ Technical Implementation
+
+### Architecture Decisions
+
+**Separation of Concerns**: 
+- Search logic is separate from state management (`useTodayMeals` hook)
+- Normalization utilities are isolated for testability
+- UI components are pure and focused on presentation
+
+**State Management**:
+- Custom hook (`useTodayMeals`) for meal management
+- AsyncStorage persistence with date-based keys (`meals:YYYY-MM-DD`)
+- Optimized re-renders with proper dependency arrays
+
+**Search Implementation**:
+- **Normalization**: Unicode NFD normalization for diacritic-insensitive matching
+- **Priority Ranking**: Starts-with matches prioritized over contains matches
+- **Performance**: Debounced search with 300ms delay
+
+**Data Visualization**:
+- Raw calorie data returned from hook for sparkline
+- SVG-based sparkline with proportional scaling
+- Manual rendering without external chart libraries
+
+### Key Technical Choices
+
+1. **TypeScript Excellence**: Comprehensive type definitions with strict typing
+2. **Performance Optimization**: Debounced search, memoized components, FlatList virtualization
+3. **Testing Readiness**: Separated concerns make unit testing straightforward
+4. **Accessibility**: Proper touch targets, semantic elements, and contrast ratios
+5. **Maintainability**: Clean folder structure, reusable components, consistent patterns
+
+## 📦 Project Structure
+
+src/
+components/
+common/ # Reusable UI components
+QuickAddMeal/ # Feature-specific components
+hooks/ # Custom React hooks
+utils/ # Helper functions and utilities
+types/ # TypeScript type definitions
+data/ # Static data files
+
+
+## 🚦 Getting Started
+
+### Prerequisites
+
+- Node.js 16+
+- iOS: Xcode 14+
+- Android: Android Studio with SDK tools
+- CocoaPods (for iOS)
+
+### Installation
+
+1. **Clone and install dependencies**:
+   ```bash
+   git clone <repository-url>
+   cd TapHealth
+   npm install
+
+Install iOS dependencies:
+
+cd ios && pod install && cd ..
+
+Start the application:
+
+# Start Metro bundler
+npm start
+
+# Run on iOS (new terminal)
+npm run ios
+
+# Run on Android (new terminal)
+npm run android
+
+
+
+
+
+
+
+
+<!-- This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
 
@@ -94,4 +189,4 @@ To learn more about React Native, take a look at the following resources:
 - [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
 - [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
 - [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native. -->
